@@ -8,11 +8,16 @@ Purpose of this was to give a starter for some easy future exploration on topics
 
 ### Running it 
 
-You'll need an OpenAI API key which you can get from your account details there. Once you have this... 
+You'll need an [OpenAI API key](https://openai.com/blog/openai-api) which you can get from your [account details](https://platform.openai.com/account/api-keys). Once you have this... 
 
-Create an .env file in the root directory of your system (or use secrets from any of the great providers out there - Netlify, Vercel, Railway). If running local, run `npm run dev` and you should be off to the races! 
+Create an `.env` file in the root directory of this repo (or use secrets from any of the great web providers out there - Netlify, Vercel, Railway). If running local, run `npm run dev` and you should be off to the races! 
 
 ### Areas I'm exploring next... 
 
 * Implement API streaming ([plenty of examples out there](https://github.com/Nutlope/twitterbio/blob/main/utils/OpenAIStream.ts); I just want to make sure I understand them fully first)
 * Playing with creating a history of calls stored in [Supabase](https://www.supabase.com)
+
+
+## Acknowledgements 
+
+Huge thanks to the work Hassan El Mghari (https://twitter.com/nutlope) has done in the JavaScript/NextJS community with OpenAI. 
