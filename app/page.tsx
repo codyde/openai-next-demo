@@ -43,8 +43,7 @@ export default function Home() {
       <main className="grid h-screen bg-cover bg-no-repeat bg-white grid-cols-4 grid-rows-3">
         <div className="grid col-start-2 col-span-2 font-bold row-start-2 font-sohne text-black">
           <h1 className="text-6xl xl:text-6xl 2xl:text-9xl">
-            Exploring <span className="text-ldred">OpenAI</span> and{" "}
-            <span className="text-ldred">NextJS</span>
+            Query some <span className="text-ldred">OpenAI</span>
           </h1>
           <form onSubmit={handleSubmit} method="post">
             <Input type="prompt" id="prompt" placeholder="Prompt" />
