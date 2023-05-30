@@ -1,17 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-  font-family: "Audimat";
-  src: url("/fonts/Audimat3000-Regulier.otf");
-}
-
-@font-face {
-  font-family: "Sohne";
-  src: url("/fonts/sohne.otf");
-}
-
+ 
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -56,8 +46,8 @@
     --popover: 224 71% 4%;
     --popover-foreground: 215 20.2% 65.1%;
  
-    --card: 224 71% 4%;
-    --card-foreground: 213 31% 91%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
  
     --border: 216 34% 17%;
     --input: 216 34% 17%;
